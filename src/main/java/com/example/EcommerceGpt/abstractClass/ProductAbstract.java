@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 public abstract class ProductAbstract {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name= "ProductoID")
+    @Column(name= "ProductID")
     private Long productoId;
     @Column (name= "Nombre")
     private String nombre;

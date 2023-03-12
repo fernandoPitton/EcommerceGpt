@@ -8,8 +8,8 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "PhysicalProduct")
 public class PhysicalProduct extends ProductAbstract {
-    @Column(name="weight")
-    private Double weight;
+    @Column(name="Peso")
+    private Double peso;
 
 
     public PhysicalProduct() {
